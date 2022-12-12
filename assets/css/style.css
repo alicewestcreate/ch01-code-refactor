@@ -4,9 +4,18 @@
     margin: 0;
 }
 
+/* Styling for the background colour and main font used*/
+
 body {
     background-color: #d9dcd6;
 }
+
+p {
+    font-size: 16px;
+}
+
+
+/* Styling for the Header and Nav section, which is the menu at the top of the page*/
 
 header {
     padding: 20px;
@@ -23,6 +32,8 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
+
+/* Styling for the menu list */
 
 nav {
     padding-top: 15px;
@@ -46,10 +57,7 @@ nav ul li a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
+/*Styling for the main hero image*/
 
 section .hero {
     width: 100%;
@@ -58,15 +66,7 @@ section .hero {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
+/*Styling for the main section - "Service" Section */
 
 main {
     width: 75%;
@@ -83,7 +83,6 @@ main .services {
     color: #ffffff;
 }
 
-
 main .services img {
     max-height: 200px;
 }
@@ -94,6 +93,19 @@ main .services h2 {
     font-size: 36px;
 }
 
+
+/* Section that directs which way the image needs to float for the Main "Service" section*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*Styling for the aside "Benefit section" */
 
 aside {
     margin-right: 20px;
@@ -123,10 +135,3 @@ aside .benefit img {
     max-width: 150px;
 }
 
-
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
